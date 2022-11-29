@@ -23,10 +23,9 @@ window.addEventListener("load", function () {
                     <li ${color}>Active: ${json[i].active}</li>
                     <li>Skills: ${skills}</li>
                  </ul>
-    
-                 <img src=${json[i].picture} height=250></img>
-              
-              </div>
+                 
+                 </div>
+                 <img class="avatar" src=${json[i].picture}></img>
            </div>
         `;
             }
